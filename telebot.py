@@ -42,7 +42,7 @@ def handle(msg):
        on(17)
        bot.sendMessage(chat_id, "Locked")
 
-bot = telepot.Bot('1212253230:AAHMVxFTecnDXduCNVVQiaBKXvSyLW0XqeI')
+bot = telepot.Bot('Bot Token')
 bot.message_loop(handle)
 print ('I am listening...')
 
